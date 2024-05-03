@@ -5,6 +5,8 @@ This project focuses on developing a machine learning model to predict the perfo
 
 ## Data Preparation
 The data used in this project resides in the `./data/tpugraphs/npz/tile/xla` directory. Each data file contains multiple features which are pre-processed and sampled for training the model.
+* As we are having an insane amount of data, a few .npz file sample is provided.
+* Full dataset can be downloaded from: https://www.kaggle.com/competitions/predict-ai-model-runtime/data.
 
 ## Model Training
 * We employ a `LightGBM Ranker` to train our model. The ranker uses features such as node characteristics and configuration parameters to predict the performance ranks within different groups.
